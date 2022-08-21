@@ -41,7 +41,7 @@ The project uses SSIM (Similarity Structural Image Metric) to calculate the opti
 - [x] The algorithm is not dependent on the image size or format.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<img src="repo_images/ssim.PNG" width="500px">
+<img src="repo_images/ssim.png" width="500px">
 <br/>
 Structural Similarity Image Metric
 
