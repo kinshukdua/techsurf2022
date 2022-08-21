@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='icon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Optimal score for image quality</title>
+</head>
+<body>
+    <h2>
+        Optimal Score: {{density}}
+    </h2>
+    <h3>
+        Size optimized from {{old_size}} -> {{new_size}}
+    </h3>
+    <h3>
+        Optimization: {{optimization}}%
+    </h3>
+        
+    <img src="{{ user_image }}" alt="User Image" width="1000px">
+</body>
+</html>
